@@ -21,7 +21,7 @@ pipeline
         {
             steps
             {
-                sh 'scp /var/lib/jenkins/workspace/declarativepipeline1/webapp/target/webapp.war ubuntu@172.31.39.5:/var/lib/tomcat10/webapps/three.war'
+                sh 'scp /var/lib/jenkins/workspace/declarativepipeline1/webapp/target/webapp.war ubuntu@172.31.31.8:/var/lib/tomcat10/webapps/three.war'
             }
         }
      }
