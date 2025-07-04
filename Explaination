@@ -1,0 +1,7 @@
+Explaination:
+
+Branch         Stage
+
+master         Download
+check          Download & build 
+final          all stages { Download , Build , Deployement , Testing and Delivery }
