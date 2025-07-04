@@ -21,7 +21,7 @@ pipeline
         {
             steps
             {
-                sh 'scp /var/lib/jenkins/workspace/declarativepipeline1/webapp/target/webapp.war ubuntu@172.31.31.8:/var/lib/tomcat10/webapps/three.war'
+                sh 'scp /var/lib/jenkins/workspace/Jenkinsfile/webapp/target/webapp.war ubuntu@172.31.5.190:/var/lib/tomcat10/webapps/three.war'
             }
         }
 	stage('ContTesting')
@@ -35,7 +35,7 @@ pipeline
         {
             steps
             {
-                sh 'scp /var/lib/jenkins/workspace/declarativepipeline1/webapp/target/webapp.war ubuntu@172.31.27.10:/var/lib/tomcat10/webapps/four.war'
+                sh 'scp /var/lib/jenkins/workspace/Jenkinsfile/webapp/target/webapp.war ubuntu@172.31.0.181:/var/lib/tomcat10/webapps/four.war'
             }
         }
     }
