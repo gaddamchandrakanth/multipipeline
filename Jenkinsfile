@@ -29,6 +29,7 @@ pipeline
             steps
             {
                 git 'https://github.com/IntelliqDevops/FunctionalTesting.git'
+		sh 'java -jar /var/lib/jenkins/workspace/Jenkinsfile/testing.jar'
             }
         }
         stage('ContDelivery')
